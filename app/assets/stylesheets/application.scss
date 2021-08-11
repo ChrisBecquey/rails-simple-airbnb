@@ -1,0 +1,26 @@
+@import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
+
+
+$color-red: #FF0000;
+$color-green: #00FF00;
+$color-blue: #0000FF;
+
+.blue {
+  color: $color-blue !important;
+}
+
+.green {
+  color: $color-green !important;
+}
+
+.red {
+  color: $color-red !important;
+}
+
+.set {
+  width: 400px;
+}
+
+.set600 {
+  width: 600px;
+}
